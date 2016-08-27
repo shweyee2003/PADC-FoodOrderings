@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PADC-FoodOrderings</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_styleone">One Column</string>
+    <string name="action_styletwo">Two Column</string>
+    <string name="action_share">Share</string>
+
+    <string name="meal_list_detail_transition_name">meal_list_detail_transition_name</string>
+    <string name="layoutstyle">Style</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/margin_medium">
+
+    <TextView
+        android:id="@+id/tv_meal_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mandalay"
+        android:textSize="@dimen/text_heading_1x"
+        android:textColor="@color/primary_text"
+        android:lineSpacingMultiplier="1.2"
+        android:maxLines="1"
+        android:layout_gravity="top"
+        />
+
+   <com.shweyee.padc_foodorderings.components.DynamicHeightImageView
+
+        android:id="@+id/iv_meal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/margin_large"
+        android:src="@drawable/sample_attraction_thumbnail"
+        android:layout_marginTop="@dimen/margin_medium"
+        />
+
+    <TextView
+        android:id="@+id/tv_meal_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5000"
+        android:fontFamily="sans-serif-light"
+        android:lineSpacingMultiplier="1.2"
+        android:maxLines="1"
+        android:layout_gravity="bottom"
+        android:paddingBottom="@dimen/margin_small"
+        android:layout_marginBottom="@dimen/margin_small"
+        android:textAlignment="center"
+        android:textSize="@dimen/text_regular_3x"
+        android:background="@color/white"
+        android:textColor="@color/primary_text"
+        />
+
+</FrameLayout>
